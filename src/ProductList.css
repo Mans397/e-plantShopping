@@ -250,3 +250,8 @@ body {
         text-align: center; /* Align text to the center */
       }
   }
+.product-button.added-to-cart,
+.product-button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
